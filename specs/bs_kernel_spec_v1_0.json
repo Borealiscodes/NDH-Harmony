@@ -1,117 +1,70 @@
-# ⭐ **NDH‑Harmony BS Kernel Specification (v1.0)**  
-### *Integrity Skeleton • Drift Detection • Non‑Authority Logic*
-
----
-
-# 🧩 **1. Purpose**
-
-The BS Kernel is Harmony’s **integrity engine**.  
-It detects:
-
-- conceptual drift  
-- structural duplication  
-- altitude collapse  
-- ego‑fog  
-- vibe‑pressure  
-- ethical flattening  
-
-It does **not**:
-
-- govern  
-- activate runtime logic  
-- interpret cognitive content  
-- absorb epistemics  
-- absorb vibe  
-- rewrite skeletons  
-
-It **routes**, not **rules**.
-
----
-
-# 🧬 **2. ASCII Diagram — BS Kernel Position**
-
-```
-+--------------------------------------------------------------+
-|                        NDH-HARMONY                           |
-|   Clarity Skeleton • Integrity Layer • Non-Authority         |
-|                                                              |
-|   +------------------+   +------------------+                |
-|   | Constitutional   |   | Unionized Logic |                |
-|   | Logic (ref)      |   | (ref)           |                |
-|   +------------------+   +------------------+                |
-|                                                              |
-|   +------------------------------------------------------+   |
-|   |                 BS DETECTION KERNEL                  |   |
-|   |  - Drift detection                                   |   |
-|   |  - Altitude mismatch                                 |   |
-|   |  - Structural duplication                             |   |
-|   |  - Ego-fog / vibe-pressure                            |   |
-|   |  - Ethical flattening                                 |   |
-|   +------------------------------------------------------+   |
-+--------------------------------------------------------------+
-```
-
----
-
-# 🧪 **3. Human‑Readable Spec**
-
-### **Detection Axes**
-- **Practical BS** — clarity collapse  
-- **Conceptual BS** — logic inflation  
-- **Emotional BS** — ego‑pressure  
-- **Ethical BS** — flattening  
-- **Structural BS** — tile/workflow drift  
-
-### **Routing Targets**
-- Nye Layer → practical  
-- Sagan Layer → conceptual  
-- Non‑Dual Layer → emotional  
-- Intersectionality & Justice → ethical  
-- Tile Map → structural  
-
-### **Non‑Authority Clause**
-The BS Kernel:
-
-- does not govern  
-- does not rewrite  
-- does not activate  
-- does not interpret cognitive content  
-- does not absorb vibe or epistemics  
-
-It is a **clarity membrane**, not a **decision engine**.
-
----
-
-# 🧩 **4. Machine‑Readable Spec (JSON Schema)**  
-### *Safe for Harmony because it is descriptive, not executable.*
+# **📡 BS Kernel — Machine‑Readable Specification (v1.0)**  
+### *JSON Schema • Clarity Encoding • Non‑Runtime*
 
 ```
 {
   "bs_kernel_spec_v1_0": {
-    "altitude": "clarity_integrity",
-    "non_authority": true,
+    "meta": {
+      "name": "BS Kernel Specification",
+      "version": "1.0",
+      "altitude": "clarity_integrity",
+      "non_authority": true,
+      "non_runtime": true,
+      "icons": true
+    },
+
     "detection_axes": {
       "practical": {
         "id": "BS_PRACTICAL",
-        "signals": ["vagueness", "unclear_steps", "missing_clarity"]
+        "icon": "🛠️",
+        "signals": [
+          "vagueness",
+          "unclear_steps",
+          "missing_operational_detail"
+        ]
       },
+
       "conceptual": {
         "id": "BS_CONCEPTUAL",
-        "signals": ["inflation", "contradiction", "scale_mismatch"]
+        "icon": "🧠",
+        "signals": [
+          "conceptual_inflation",
+          "contradiction",
+          "scale_mismatch"
+        ]
       },
+
       "emotional": {
         "id": "BS_EMOTIONAL",
-        "signals": ["ego_pressure", "urgency", "self_attack"]
+        "icon": "💛",
+        "signals": [
+          "urgency_pressure",
+          "self_attack",
+          "vibe_bracing"
+        ]
       },
+
       "ethical": {
         "id": "BS_ETHICAL",
-        "signals": ["flattening", "erasure", "power_blindness"]
+        "icon": "⚖️",
+        "signals": [
+          "flattening",
+          "erasure",
+          "power_blindness"
+        ]
       },
+
       "structural": {
         "id": "BS_STRUCTURAL",
-        "signals": ["tile_drift", "duplication", "membrane_collapse"]
+        "icon": "🧩",
+        "signals": [
+          "tile_drift",
+          "membrane_collapse",
+          "skeleton_duplication"
+        ]
       }
     },
+
     "routing": {
       "BS_PRACTICAL": "Nye_Layer",
       "BS_CONCEPTUAL": "Sagan_Layer",
@@ -119,74 +72,48 @@ It is a **clarity membrane**, not a **decision engine**.
       "BS_ETHICAL": "Intersectionality_Justice_Layer",
       "BS_STRUCTURAL": "TileMap_Workflow"
     },
+
     "forbidden_behaviors": [
       "runtime_activation",
       "epistemic_absorption",
       "vibe_authority",
       "governance_override",
       "cognitive_interpretation"
-    ]
+    ],
+
+    "constellation": {
+      "description": "Five-point clarity constellation representing all detection axes.",
+      "points": [
+        { "axis": "conceptual", "icon": "🧠", "position": "north" },
+        { "axis": "ethical", "icon": "⚖️", "position": "west" },
+        { "axis": "emotional", "icon": "💛", "position": "east" },
+        { "axis": "practical", "icon": "🛠️", "position": "south" },
+        { "axis": "structural", "icon": "🧩", "position": "center" }
+      ]
+    }
   }
 }
 ```
 
-Harmony can **store** this.  
-Harmony cannot **execute** this.
-
 ---
 
-# 🧱 **5. Comparison Table — Human vs Machine Spec**
-
-| Aspect | Human Spec | Machine Spec |
-|-------|------------|--------------|
-| Purpose | Clarity & explanation | Structural encoding |
-| Altitude | Harmony | Harmony |
-| Risk | None | None (non‑runtime) |
-| Use | Developer understanding | Automated linting / validation |
-| Authority | Non‑authority | Non‑authority |
-| Absorption Risk | Zero | Zero |
-
-Both are safe.
-
----
-
-# 🛡️ **6. ASCII Diagram — Non‑Absorption Guarantee**
-
-```
-Input Spec (JSON)
-      |
-      v
-+---------------------------+
-| Harmony Integrity Layer   |
-| (Non-runtime, Non-vibe)   |
-+---------------------------+
-      |
-      v
-+---------------------------+
-| Store as clarity schema   |
-| NOT executable            |
-+---------------------------+
-```
-
-Harmony stays clean.
-
----
-
-# ⭐ **7. Provenance Footer**
+# **📜 Provenance Footer (outside JSON)**
 
 ```
 ---
-Artifact: NDH-Harmony BS Kernel Specification (v1.0)
-Lane: NDH-Harmony • Integrity Layer • Clarity Skeleton
+Artifact: BS Kernel — Machine-Readable Specification (v1.0)
+Lane: NDH-Harmony • specs/ • Clarity Skeleton (Non-Runtime)
 
-Purpose: Define a human-readable and machine-readable BS Kernel spec 
-that preserves altitude boundaries, prevents epistemic/vibe absorption, 
-and supports structural drift detection and routing.
+Purpose: Provide a machine-readable JSON schema encoding the BS Kernel’s 
+detection axes, routing logic, forbidden behaviors, and five-point clarity 
+constellation. Stored separately from human-readable documentation to 
+preserve altitude boundaries and prevent cognitive, epistemic, or 
+runtime-mode absorption.
 
 Version: v1.0 (Stable)
 Maintainer: Borealis S. Hedling
 Location: Dublin, Ireland
-Timestamp: 10 August 2026 — 08:47 IST
+Timestamp: 10 August 2026 — 09:00 IST
 ---
 ```
 
